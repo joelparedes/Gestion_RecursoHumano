@@ -7,11 +7,8 @@ using System.Web;
 
 namespace Gestion_RecursoHumano.Models
 {
-    public class Salida_Empleado
+    public class Salida_Empleado : Base.BaseEntity
     {
-        [Key]
-        public int Id_Salida { get; set; }
-
         //[ForeignKey("Empleado")]
         //[Column("CodigoEmpleado")]
         

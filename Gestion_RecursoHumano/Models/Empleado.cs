@@ -7,12 +7,8 @@ using System.Web;
 
 namespace Gestion_RecursoHumano.Models
 {
-    public class Empleado
+    public class Empleado : Base.BaseEntity
     {
-        [Key]
-        [Column(Order = 1)]
-        public int Id_Empleado { get; set; }
-
         [Key]
         [Column(Order = 2)]
         [Index(IsUnique = true)]

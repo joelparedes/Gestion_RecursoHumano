@@ -8,10 +8,8 @@ using System.Web;
 namespace Gestion_RecursoHumano.Models
 {
     
-    public class Nomina
+    public class Nomina : Base.BaseEntity
     {
-        [Key]
-        public int Id_Nomina { get; set; }
         public DateTime Año { get; set; }
         public DateTime Mes { get; set; }
         public decimal Monto_Total { get; set; }

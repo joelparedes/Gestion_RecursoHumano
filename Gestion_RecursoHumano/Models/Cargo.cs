@@ -6,10 +6,8 @@ using System.Web;
 
 namespace Gestion_RecursoHumano.Models
 {
-    public class Cargo
+    public class Cargo : Base.BaseEntity
     {
-        [Key]
-        public int Id_Cargo { get; set; }
         [Required]
         public String Nombre_Cargo { get; set; }
             

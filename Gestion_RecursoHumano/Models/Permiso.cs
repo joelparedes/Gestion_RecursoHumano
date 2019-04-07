@@ -7,11 +7,8 @@ using System.Web;
 
 namespace Gestion_RecursoHumano.Models
 {
-    public class Permiso
-    {   
-        [Key]
-        public int Id_Permiso { get; set; }
-
+    public class Permiso : Base.BaseEntity
+    {
         //[ForeignKey("Empleado")]
         
         public String CodigoEmpleado { get; set; }

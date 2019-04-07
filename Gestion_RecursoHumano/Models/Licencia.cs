@@ -8,12 +8,8 @@ using System.Web;
 namespace Gestion_RecursoHumano.Models
 {
     [Table("Licencia")]
-    public class Licencia
+    public class Licencia : Base.BaseEntity
     {
-        [Key]
-        public int Id_licencia { get; set; }
-
-        
         public String CodigoEmpleado { get; set; }
 
         [Required(ErrorMessage ="Campo obligatorio")]

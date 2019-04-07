@@ -6,11 +6,8 @@ using System.Web;
 
 namespace Gestion_RecursoHumano.Models
 {
-    public class Vacacion
+    public class Vacacion : Base.BaseEntity
     {
-        [Key]
-        public int Id_Vacacion { get; set; }
-
         public String CodigoEmpleado { get; set; }
 
         [Required]

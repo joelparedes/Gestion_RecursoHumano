@@ -6,11 +6,8 @@ using System.Web;
 
 namespace Gestion_RecursoHumano.Models
 {
-    public class Departamento
+    public class Departamento : Base.BaseEntity
     {
-        [Key]
-        public int Id_Depto { get; set; }
-
         [Required]
         public String Codigo_Depto { get; set; }
 
