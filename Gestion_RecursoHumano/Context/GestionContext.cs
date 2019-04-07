@@ -17,12 +17,12 @@ namespace Gestion_RecursoHumano.Context
 
         public DbSet<Empleado> Empleados { get; set; }  // Listado empleados
         public DbSet<Departamento> Departamentos { get; set; } // listado departamentos
-
-        public System.Data.Entity.DbSet<Gestion_RecursoHumano.Models.Cargo> Cargoes { get; set; }
-        //public DbSet<Cargo> Cargos { get; set; } // listado de cargos
-        //public DbSet<Licencia> Licencias { get; set; } //listado licencias
-        //public DbSet<Permiso> Permisos { get; set; } // listado permisos
-        //public DbSet<Vacacion> Vacaciones { get; set; } // listado de vacaciones
-
+        public DbSet<Cargo> Cargos { get; set; }
+        public DbSet<Licencia> Licencias { get; set; }
+        public DbSet<Permiso> Permisos { get; set; }
+        public DbSet<Salida_Empleado> Salidas_Empleados { get; set; }
+        public DbSet<Vacacion> Vacacions { get; set; }
+        public DbSet<Nomina> GetNominas { get; set; }
+        
     }
 }

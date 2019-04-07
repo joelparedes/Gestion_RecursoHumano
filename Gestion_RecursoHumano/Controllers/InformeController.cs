@@ -6,18 +6,12 @@ using System.Web.Mvc;
 
 namespace Gestion_RecursoHumano.Controllers
 {
-    public class GestionController : Controller
+    public class InformeController : Controller
     {
-        
+        // GET: Informe
         public ActionResult Index()
         {
             return View();
         }
-
-        public ActionResult RegistrarEmpleado() {
-
-            return View();
-        }
-
     }
 }

@@ -33,13 +33,13 @@ namespace Gestion_RecursoHumano.Models
         public String Telefono { get; set; }
 
         // [ForeignKey("Departamento")]
-        //public int Id_Depto { get; set; }
+        public int Id_Depto { get; set; }
 
         [Required]
         public String Nombre_Depto { get; set; }
 
-        //[Required]
-        //public String Id_Cargo { get; set; }
+        [Required]
+        public String Id_Cargo { get; set; }
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
